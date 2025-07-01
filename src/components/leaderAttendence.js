@@ -71,7 +71,7 @@ const AttendancePage = () => {
 
   return (
     <div className="container py-5 attendance-page" dir="rtl">
-      <h2 className="text-center mb-4">حضور القادة</h2>
+      <h2 className="text-center mb-4 main-title">حضور القادة</h2>
 
       <div className="d-flex flex-wrap justify-content-between gap-2 mb-3 attendance-controls">
         <button onClick={prevWeek} className="btn btn-secondary">الأسبوع السابق</button>

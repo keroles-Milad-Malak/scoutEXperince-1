@@ -245,8 +245,6 @@
 }
 
 
-
-
 .attendance-page {
   background: #fefefe;
 }
@@ -265,4 +263,64 @@
 
 .leader-name {
   font-weight: bold;
+}
+
+/* === ScoutAll Page Styles === */
+.scoutall-container {
+  background-color: #f0f4f8;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+}
+
+.scoutall-title {
+  color: #0d6efd;
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+
+.scoutall-section {
+  margin-bottom: 30px;
+}
+
+.scoutall-heading {
+  font-size: 1.6rem;
+  color: #1769aa;
+  border-right: 5px solid #0d6efd;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+
+.scoutall-paragraph {
+  font-size: 1.15rem;
+  color: #333;
+  line-height: 2;
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.scoutall-list {
+  padding-right: 20px;
+  list-style-type: square;
+  color: #444;
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+.scoutall-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  border: 2px solid #0d6efd;
+  color: #0d6efd;
+  border-radius: 50px;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.scoutall-btn:hover {
+  background-color: #0d6efd;
+  color: #fff;
 }

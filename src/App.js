@@ -29,7 +29,7 @@ function App() {
         <Route path="/eduction/scout" element={<EductionScout />} />
         <Route path="/eduction/lesson/:id" element={<LessonDetails />} />
         <Route path="/eduction/scout/add" element={<AddLesson />} />
-        < Route path='/scoutAll' element={<ScoutAll />} />
+        <Route path='/scoutAll' element={<ScoutAll />} />
         <Route path='/leader' element={<LeaderAttendance />} />
       </Routes>
     </>
